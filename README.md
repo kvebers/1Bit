@@ -19,4 +19,9 @@ The game will have only 2 color schemes black and white.
 
 ## Todo list
 
+### Make sound 1bits
+### Map
+### Enemy
+### Shaders and Post Processing Volume
+
 
