@@ -19,9 +19,19 @@ The game will have only 2 color schemes black and white.
 
 ## Todo list
 
-### Make sound 1bits
+### Make sound 1 Bit
 ### Map
 ### Enemy
 ### Shaders and Post Processing Volume
+### Add Gun and other weapons
+### Add Win Condition
+### Add light effect for the eyes for the enemy
+### Title Screen (Authors, Settings, Tutorial and START)
+### Buttons to press inside of the Tutorial or Info
+### Make sphere for the expansion of the sound across the map
+#### We make 2 spehere 1 sphere of light and 1 transperent sphere and let it naturaly bounce
+#### We make a white partialy transperent spehere and let it highlight the region, add luminosity on top of the spehere
+### Document all the steps
+
 
 
