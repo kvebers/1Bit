@@ -10,12 +10,12 @@ For the color scheme idea right now is to use shaders and [Unity Post Processing
 
 
 ### Github Workflow
-1.Save Unity Scene and the code!
-2.Push to your Branch
-3. Make a Pull request to Dev
-4. Merge to Dev
-5. Merge to Master
-6. Make a branch for feature you want to work on, or merge to your work branch. 
+#### 1.Save Unity Scene and the code!
+#### 2.Push to your Branch
+#### 3. Make a Pull request to Dev
+#### 4. Merge to Dev
+#### 5. Merge to Master
+#### 6. Make a branch for feature you want to work on, or merge to your work branch. 
 
 # Idea
 
