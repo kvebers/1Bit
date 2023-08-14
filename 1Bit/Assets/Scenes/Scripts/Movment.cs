@@ -6,7 +6,7 @@ public class Movment : MonoBehaviour
 {
     public float movementSpeed = 5f;
     public float rotationSpeed = 3f;
-
+    public SoundSorce soundSource;
     private float rotationX = 0f;
     private float rotationY = 0f;
 
@@ -25,5 +25,18 @@ public class Movment : MonoBehaviour
         rotationY += mouseX * rotationSpeed * Time.deltaTime;
         rotationX = Mathf.Clamp(rotationX, -90f, 90f);
         transform.rotation = Quaternion.Euler(rotationX, rotationY, 0f);
+
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (soundSource != null)
+            {
+                soundSource.SpawnButtonClicked();
+            }
+        }
     }
+
+
+    
 }

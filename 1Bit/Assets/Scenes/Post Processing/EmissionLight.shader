@@ -5,6 +5,7 @@ Shader "Custom/EmissionLight"
         _MainTex ("Texture", 2D) = "white" {}
         _Emission ("Emission Color", Color) = (1, 1, 1, 1)
         _EmissionStrength ("Emission Strength", Range(0, 1)) = 1
+        _Color ("Color", Color) = (1, 1, 1, 1) // Add _Color property
     }
     SubShader
     {
@@ -21,6 +22,7 @@ Shader "Custom/EmissionLight"
             sampler2D _MainTex;
             float4 _Emission;
             float _EmissionStrength;
+            float4 _Color; // Declare _Color variable
 
             struct appdata_t {
                 float4 vertex : POSITION;
@@ -41,6 +43,7 @@ Shader "Custom/EmissionLight"
             fixed4 frag(v2f i) : SV_Target {
                 fixed4 col = tex2D(_MainTex, i.uv);
                 col.rgb += _Emission.rgb * _EmissionStrength;
+                col *= _Color; // Apply _Color property
                 return col;
             }
             ENDCG
