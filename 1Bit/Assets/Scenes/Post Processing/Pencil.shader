@@ -102,7 +102,7 @@ Shader "Custom/Pencil"
                 if (grayscaleValue > 0.5)
                     weight = weight / 4;
                 else
-                    weight /= 8;
+                    weight /= 4;
                 return lerp(float4(0.0, 0.0, 0.0, 0.0), background, weight);
             }
  
