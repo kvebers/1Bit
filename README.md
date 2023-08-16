@@ -34,7 +34,6 @@ The game will have only 2 color schemes black and white.
 ## Add Win Condition
 ## Add light effect for the eyes for the enemy
 ## Title Screen (Authors, Settings, Tutorial and START)
-## Buttons to press inside of the Tutorial or Info
 ## Make Echo Location
 ## Document all the steps
 
