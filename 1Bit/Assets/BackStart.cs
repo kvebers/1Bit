@@ -5,15 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class BackStart : MonoBehaviour
 {
-
-    public void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            changeScene();
-        }
-    }
-
     public void changeScene()
     {
         SceneManager.LoadScene("Intro");

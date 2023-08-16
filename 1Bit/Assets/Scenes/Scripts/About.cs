@@ -5,14 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class About : MonoBehaviour
 {
-    public void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            changeScene();
-        }
-    }
-
     public void changeScene()
     {
         SceneManager.LoadScene("About");

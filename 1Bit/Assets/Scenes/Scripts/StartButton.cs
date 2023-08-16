@@ -8,12 +8,10 @@ public class StartButton : MonoBehaviour
     // Start is called before the first frame update
     public GameObject[] objectsToDestroy;
 
-    private void Update()
+
+    public void StartTheThing()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            StartCoroutine(DestroyObjectsWithDelay());
-        }
+        StartCoroutine(DestroyObjectsWithDelay());
     }
     public  IEnumerator DestroyObjectsWithDelay()
     {
