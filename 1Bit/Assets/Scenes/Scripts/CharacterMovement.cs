@@ -65,6 +65,13 @@ public class CharacterControllerScript : MonoBehaviour
 			UpdateMouseLook();
 		UpdateMovement();
 		CheckInteractables();
+		CheckClick();
+	}
+
+	void	CheckClick()
+	{
+		if (Input.GetAxis("Click Button") > 0)
+			print("CLICKED");
 	}
 
 	void UpdateMouseLook()
