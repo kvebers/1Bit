@@ -19,7 +19,7 @@ public class Echo : MonoBehaviour
     {
         if (_strength > 0)
         {
-            float scaleFactor = 5; // Adjust this value as needed
+            float scaleFactor = 5;
 
             transform.localScale = new Vector3(transform.localScale.x + scaleFactor,
                                                transform.localScale.y + scaleFactor,

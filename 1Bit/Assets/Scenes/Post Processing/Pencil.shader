@@ -99,8 +99,8 @@ Shader "Custom/Pencil"
                 float4 col = getCol(screenPos);
                 float4 background = lerp(col, float4(1.0, 1.0, 1.0, 1.0), _ColorThreshold);
                 float grayscaleValue = dot(col.rgb, float3(0.2126, 0.7152, 0.0722));
-                if (grayscaleValue > 0.5)
-                    weight = weight * 8;
+                if (grayscaleValue > 0.8)
+                    weight = weight * 8 ;
                 else
                     weight /= 8;
                 return lerp(float4(0.0, 0.0, 0.0, 0.0), background, weight);
