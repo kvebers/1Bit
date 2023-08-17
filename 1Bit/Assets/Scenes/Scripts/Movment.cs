@@ -26,17 +26,5 @@ public class Movment : MonoBehaviour
         rotationX = Mathf.Clamp(rotationX, -90f, 90f);
         transform.rotation = Quaternion.Euler(rotationX, rotationY, 0f);
 
-
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (soundSource != null)
-            {
-                soundSource.SpawnButtonClicked();
-            }
-        }
-    }
-
-
-    
+    } 
 }
