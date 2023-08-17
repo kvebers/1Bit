@@ -36,6 +36,7 @@ public class CharacterControllerScript : MonoBehaviour
 			Input.GetAxis(inp_moY);
 			Input.GetAxisRaw(inp_mvX);
 			Input.GetAxisRaw(inp_mvY);
+			Input.GetAxisRaw("Click Button");
 		}
 		catch
 		{
@@ -70,8 +71,9 @@ public class CharacterControllerScript : MonoBehaviour
 
 	void	CheckClick()
 	{
+		//print($"click is<{Input.GetAxisRaw("Click Button")}>");
 		if (Input.GetAxis("Click Button") > 0)
-			print("CLICKED");
+			print("CLICKING");
 	}
 
 	void UpdateMouseLook()
