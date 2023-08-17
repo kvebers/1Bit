@@ -289,6 +289,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   echoPrefab: {fileID: 8012207571435145562, guid: 7cc2c64807c2e0540aed1548cf5a20f3, type: 3}
   strength: 10
+  audioClips:
+  - {fileID: 8300000, guid: 2d7b3343dd6cdf840b75f64686386cc4, type: 3}
+  - {fileID: 8300000, guid: 2652aa3ca6420264b879fa745358d659, type: 3}
+  - {fileID: 8300000, guid: 2d7b3343dd6cdf840b75f64686386cc4, type: 3}
 --- !u!114 &737983120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1284,6 +1288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   echoPrefab: {fileID: 8012207571435145562, guid: 7cc2c64807c2e0540aed1548cf5a20f3, type: 3}
   strength: 10
+  audioClips: []
 --- !u!1001 &1907336068
 PrefabInstance:
   m_ObjectHideFlags: 0
