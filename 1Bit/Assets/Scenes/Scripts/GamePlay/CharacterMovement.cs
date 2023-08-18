@@ -18,6 +18,7 @@ public class CharacterControllerScript : MonoBehaviour
 	public string	inp_moY = "Mouse Y";
 	public string	inp_mvX = "Horizontal";
 	public string	inp_mvY = "Vertical";
+	public string	inp_click = "Click Button";
 
 	public Transform	playerCamera;
 	public SoundSorce	soundSource;
@@ -36,7 +37,7 @@ public class CharacterControllerScript : MonoBehaviour
 			Input.GetAxis(inp_moY);
 			Input.GetAxisRaw(inp_mvX);
 			Input.GetAxisRaw(inp_mvY);
-			Input.GetAxisRaw("Click Button");
+			Input.GetAxisRaw(inp_click);
 		}
 		catch
 		{
@@ -56,8 +57,8 @@ public class CharacterControllerScript : MonoBehaviour
 			return ;
 		}
 		controller = GetComponent<CharacterController>();
-		print("Press 'Space' for a white cylinder.\nPress 'L' to un-/lock mouse movement.\n" +
-			"Press 'esc' to make mouse visible.");
+		//print("Press 'Space' for a white cylinder.\nPress 'L' to un-/lock mouse movement.\n" +
+			//"Press 'esc' to make mouse visible.");
 	}
 
 	void Update()
@@ -71,8 +72,8 @@ public class CharacterControllerScript : MonoBehaviour
 
 	void	CheckClick()
 	{
-		//print($"click is<{Input.GetAxisRaw("Click Button")}>");
-		if (Input.GetAxis("Click Button") > 0)
+		//print($"click is<{Input.GetAxisRaw(inp_click)}>");
+		if (Input.GetAxisRaw(inp_click) > 0)
 			print("CLICKING");
 	}
 
@@ -113,7 +114,7 @@ public class CharacterControllerScript : MonoBehaviour
 		GameObject gogo = (important >= 0) ? hit[important].transform.gameObject : null;
 		if (lookingAt && lookingAt != gogo)
 		{
-			print($"Player STOPPED looking at collider named <{lookingAt.name}>");
+			//print($"Player STOPPED looking at collider named <{lookingAt.name}>");
 			lookingAt = null;
 		}
 		if (gogo)
@@ -121,9 +122,9 @@ public class CharacterControllerScript : MonoBehaviour
 			if (!lookingAt)
 			{
 				lookingAt = gogo;
-				print($"Player STARTED now looking at collider named <{lookingAt.name}>");
+				//print($"Player STARTED now looking at collider named <{lookingAt.name}>");
 			}
-			print($"Player is CURRENTLY looking at collider named <{lookingAt.name}>");
+			//print($"Player is CURRENTLY looking at collider named <{lookingAt.name}>");
 		}
 	}
 
