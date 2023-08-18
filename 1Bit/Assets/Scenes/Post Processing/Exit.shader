@@ -15,7 +15,7 @@ Shader "Custom/Exit" {
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-            struct appdata_t {
+            struct appdata_t {  
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
             };
