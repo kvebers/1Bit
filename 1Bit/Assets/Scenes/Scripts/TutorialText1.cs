@@ -11,7 +11,7 @@ public class TutorialText1 : MonoBehaviour
     void Start()
     {
         StartCoroutine(ChangeTextAfterDelay(2f, TextToDsiplay));
-        StartCoroutine(ChangeTextAfterDelay(4f, "Use WASD, and mose to move around"));
+        StartCoroutine(ChangeTextAfterDelay(4f, ""));
         DestroyTextAfterDelay(8f);
     }
 

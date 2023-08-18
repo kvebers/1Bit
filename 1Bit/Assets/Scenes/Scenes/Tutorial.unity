@@ -498,7 +498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737983116}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 35.87, y: 1.472, z: -2.82}
+  m_LocalPosition: {x: 43.62, y: 2.1, z: -1.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2370,8 +2370,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: da785b2b1aaa2064a8a1b540849a3bec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2050192981}
   m_SourcePrefab: {fileID: 100100000, guid: da785b2b1aaa2064a8a1b540849a3bec, type: 3}
+--- !u!1 &2050192980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da785b2b1aaa2064a8a1b540849a3bec, type: 3}
+  m_PrefabInstance: {fileID: 2050192979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2050192981
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050192980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4193151966183677623, guid: da785b2b1aaa2064a8a1b540849a3bec, type: 3}
 --- !u!1001 &2059898201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2541,6 +2571,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1568424495007702769, guid: c0f744911e6080046a1cf26b5a5381d0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bdca607cc66c2904c9e2c37af2311f46, type: 2}
     - target: {fileID: 3694869330310070943, guid: c0f744911e6080046a1cf26b5a5381d0, type: 3}
       propertyPath: m_Name
       value: EndPos
