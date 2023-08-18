@@ -37,7 +37,11 @@ The game will have only 2 color schemes black and white.
 ## Add light effect for the eyes for the enemy
 ## Title Screen (Authors, Settings, Tutorial and START)
 ## Make Echo Location
-## Document all the steps
+
+
+### Level Design, Game Concept Design, Puzzle Design and Coding stuff by [Niko](https://github.com/Niko114)
+### 3D Modeling, Map Design, and Coding stuff by [bloodbine](https://github.com/bloodbine)
+### Post processing effects and Coding stuff by [kvebers](https://github.com/kvebers)
 
 
 
