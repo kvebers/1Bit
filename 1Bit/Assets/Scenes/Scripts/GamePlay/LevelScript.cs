@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class LevelScript : MonoBehaviour
 {
-	[Header("Gameobjects")]
+	[Header("GameObjects")]
 	public GameObject	go_Startpoint;
 	public GameObject	go_BanananaHolder;
 	public GameObject	go_ExitBlockerHolder;
 	public GameObject	go_DoorsHolder;
 	public GameObject	go_DarkPassagesHolder;
+
+	[Header("GameObject Lists")]
 	public List<GameObject>	go_Banananas;
 	public List<GameObject>	go_ExitBlocker;
 	public List<GameObject>	go_Doors;
