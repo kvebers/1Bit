@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Win : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private void OnTriggerEnter(Collider other)
+    public void changeScene()
     {
-        if (other.CompareTag("Player"))
+        SceneManager.LoadScene("Intro");
+        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
         {
-            Application.Quit();
+            SceneManager.LoadScene(i);
         }
     }
 }
