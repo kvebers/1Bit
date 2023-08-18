@@ -7,7 +7,7 @@ public class SoundSorce : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("SpawnAndInitializePrefab", 0f, 2f);
+        InvokeRepeating("SpawnAndInitializePrefab", 0f, 4f);
     }
 
     void SpawnAndInitializePrefab()
