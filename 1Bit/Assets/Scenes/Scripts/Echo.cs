@@ -12,7 +12,7 @@ public class Echo : MonoBehaviour
 
     public void Initialize(float strength)
     {
-        _strength = strength * 60;
+        _strength = strength * 120;
     }
 
     private void Update()

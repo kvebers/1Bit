@@ -4,8 +4,6 @@ public class SoundSorce : MonoBehaviour
 {
     public GameObject echoPrefab;
     public float strength = 10.0f;
-    public AudioClip[] audioClips;
-    private int currentClipIndex = 0;
 
     private void Start()
     {
@@ -21,17 +19,6 @@ public class SoundSorce : MonoBehaviour
         if (echoScript != null)
         {
             echoScript.Initialize(strength);
-            if (audioClips.Length > 0)
-            {
-                AudioSource audioSource = newEcho.GetComponent<AudioSource>();
-                if (audioSource == null)
-                {
-                    audioSource = newEcho.AddComponent<AudioSource>();
-                }
-                audioSource.clip = audioClips[currentClipIndex];
-                audioSource.Play();
-                currentClipIndex = (currentClipIndex + 1) % audioClips.Length;
-            }
         }
         else
         {
