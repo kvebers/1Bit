@@ -1,30 +1,52 @@
 Shader "Custom/Exit" {
     Properties {
         _MainTex ("Texture", 2D) = "white" {}
-        _Color ("Color", Color) = (1, 1, 1, 1)
+        _Emission ("Emission", Color) = (1, 1, 1, 1)
+        _Speed ("Speed", Range(0, 10)) = 1
     }
 
     SubShader {
-        Tags {"Queue"="Transparent" "RenderType"="Transparent"}
+        Tags { "Queue" = "Transparent" }
         LOD 100
 
-        CGPROGRAM
-        #pragma surface surf Lambert
+        Pass {
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            #include "UnityCG.cginc"
 
-        sampler2D _MainTex;
-        float4 _Color;
+            struct appdata_t {
+                float4 vertex : POSITION;
+                float2 uv : TEXCOORD0;
+            };
 
-        struct Input {
-            float2 uv_MainTex;
-        };
+            struct v2f {
+                float2 uv : TEXCOORD0;
+                float4 vertex : SV_POSITION;
+            };
 
-        void surf (Input IN, inout SurfaceOutput o) {
-            float4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
-            float grayscale = dot(c.rgb, float3(0.3, 0.59, 0.11));
-            o.Albedo = grayscale;
-            o.Alpha = c.a;
+            sampler2D _MainTex;
+            float4 _MainTex_ST;
+            float _Speed;
+            fixed4 _Emission;
+
+            v2f vert (appdata_t v) {
+                v2f o;
+                o.vertex = UnityObjectToClipPos(v.vertex);
+                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                return o;
+            }
+
+            fixed4 frag (v2f i) : SV_Target {
+                // Calculate scrolling offset based on time
+                float2 offset = float2(i.uv.x + _Time.y * _Speed, i.uv.y);
+
+                // Sample the texture and apply emissive effect
+                fixed4 col = tex2D(_MainTex, offset) * _Emission;
+
+                return col;
+            }
+            ENDCG
         }
-        ENDCG
     }
-    FallBack "Diffuse"
 }
