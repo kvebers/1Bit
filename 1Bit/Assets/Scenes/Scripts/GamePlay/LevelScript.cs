@@ -117,7 +117,12 @@ public class LevelScript : MonoBehaviour
 
 	private void DoPhaseTwo()
 	{
-		print("Phase two yee");
+		if (TouchedDoors.Count < go_Banananas.Count)
+		{
+			DoReset();
+			return ;
+		}
+
 	}
 
 	private void DoReset()
