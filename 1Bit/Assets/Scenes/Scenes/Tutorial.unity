@@ -1176,7 +1176,6 @@ GameObject:
   m_Component:
   - component: {fileID: 780325381}
   - component: {fileID: 780325385}
-  - component: {fileID: 780325384}
   - component: {fileID: 780325386}
   - component: {fileID: 780325382}
   m_Layer: 0
@@ -1216,14 +1215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: d813446d1ae519c46a1d7fb68b7a5c14, type: 2}
---- !u!81 &780325384
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780325380}
-  m_Enabled: 1
 --- !u!20 &780325385
 Camera:
   m_ObjectHideFlags: 0
