@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -10,6 +10,7 @@ public class TutorialText : MonoBehaviour
     void Start()
     {
         Text.text = "Tutorial";
+        Debug.Log("Ī was here");
         StartCoroutine(ChangeTextAfterDelay(2f, "Use WASD, and mose to move around"));
         StartCoroutine(ChangeTextAfterDelay(4f, "Use ECHO location to find EXIT"));
         StartCoroutine(ChangeTextAfterDelay(6f, ""));
