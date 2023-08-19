@@ -12,7 +12,7 @@ public class TutorialText : MonoBehaviour
         Text.text = "Tutorial";
         Debug.Log("Ī was here");
         StartCoroutine(ChangeTextAfterDelay(2f, "Use WASD, and mose to move around"));
-        StartCoroutine(ChangeTextAfterDelay(4f, "Use ECHO location to find EXIT"));
+        StartCoroutine(ChangeTextAfterDelay(4f, "Use ECHO location to find EXIT press SPACE"));
         StartCoroutine(ChangeTextAfterDelay(6f, ""));
         DestroyTextAfterDelay(8f);
     }
