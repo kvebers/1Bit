@@ -846,14 +846,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6246612601716783344, guid: 3d346d4f5b519c94db3a685a7dcdabc7, type: 3}
-      propertyPath: material
-      value: 
-      objectReference: {fileID: 2100000, guid: 34809d99c417a42469da1d4b094ca91b, type: 2}
-    - target: {fileID: 6246612601716783344, guid: 3d346d4f5b519c94db3a685a7dcdabc7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2240,6 +2232,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 490564, guid: f2b7ba730adc55d449241283fa35fad6, type: 3}
   m_PrefabInstance: {fileID: 1880654147}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1915851091 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6246612601716783344, guid: 3d346d4f5b519c94db3a685a7dcdabc7, type: 3}
+  m_PrefabInstance: {fileID: 934098176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b204260e48f63bf42b3e2fc33b954c35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1930456659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3304,6 +3307,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -41.452
       objectReference: {fileID: 0}
+    - target: {fileID: 7139815509736921897, guid: cc48a796c343635409aed23068759ffb, type: 3}
+      propertyPath: camEffect
+      value: 
+      objectReference: {fileID: 1915851091}
     - target: {fileID: 7179033355155279015, guid: cc48a796c343635409aed23068759ffb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00019780769
