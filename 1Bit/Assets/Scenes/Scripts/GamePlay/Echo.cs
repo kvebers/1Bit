@@ -1,10 +1,4 @@
-using System;
-using TMPro.EditorUtilities;
-using Unity.VisualScripting;
-using UnityEditor.Rendering.PostProcessing;
 using UnityEngine;
-//using static UnityEngine.Rendering.DebugUI;
-using UnityEngine.Timeline;
 
 public class Echo : MonoBehaviour
 {
