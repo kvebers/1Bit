@@ -21,7 +21,16 @@
 ## Todo list
 
 ## Make sound 1 Bit
+
+It is there, trust me!
+
 ## Map
+
+![Screenshot 2023-08-21 113415](https://github.com/kvebers/1Bit/assets/49612380/c75d3111-4d6e-40f3-beda-be23fb5bb880)
+![Screenshot 2023-08-21 113410](https://github.com/kvebers/1Bit/assets/49612380/201ac5f9-94d6-468e-aca3-ef0c21b7a41f)
+![Screenshot 2023-08-21 113403](https://github.com/kvebers/1Bit/assets/49612380/34ef466c-d599-4f2b-8739-be8b429d7ce1)
+![Screenshot 2023-08-21 113353](https://github.com/kvebers/1Bit/assets/49612380/4d2e5e19-ccfe-48f1-a74a-52ef5e0ed817)
+
 ## Enemy
 
 ![Screenshot 2023-08-21 112236](https://github.com/kvebers/1Bit/assets/49612380/9a22cf21-283b-4b39-b9d2-c059c3547d3e)
