@@ -39,6 +39,10 @@ It is there, trust me!
 
 ## Shaders and Post Processing Volume
 
+![Screenshot 2023-08-21 113658](https://github.com/kvebers/1Bit/assets/49612380/9ac50461-6637-460d-9dc7-2f81ec868f15)
+![Screenshot 2023-08-21 113726](https://github.com/kvebers/1Bit/assets/49612380/bec62c50-2d8e-42a7-a438-7c4043074729)
+![Screenshot 2023-08-21 113714](https://github.com/kvebers/1Bit/assets/49612380/0f944e05-bc8d-42b5-8d2d-ce1dd297b89f)
+
 ## Add Win Condition
 
 Some where there, find out yourself ;)
