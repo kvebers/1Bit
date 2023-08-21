@@ -21,12 +21,41 @@
 ## Todo list
 
 ## Make sound 1 Bit
+
+We are playing sounds from the states of the whispering and when ever you use echo sound effect you can hear the scream from your soul.
+
 ## Map
+
+We added 4 maps
+Tutorial:
+
+
+Level 1:
+
+
+Level 2:
+
+
+Level 3:
+
 ## Enemy
+
+![Y8kfqs](https://github.com/kvebers/1Bit/assets/49612380/5662bc88-9172-4b5e-8978-afbd4ecdc044)
+
+FOr the Enemy we added 10 diffrent types of statues for the spooky feels.
+
 ## Shaders and Post Processing Volume
+
+For the shaders we are using shader graph dittering effect
+
 ## Add Win Condition
-## Add light effect for the eyes for the enemy
+
+To win you need to go trough the portal
+
 ## Title Screen (Authors, Settings, Tutorial and START)
+
+We made 3 sceens, about end and start with a cople of buttons.
+
 ## Make Echo Location
 
 ### Github Workflow
