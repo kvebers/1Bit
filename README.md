@@ -23,11 +23,24 @@
 ## Make sound 1 Bit
 ## Map
 ## Enemy
+
+![Screenshot 2023-08-21 112236](https://github.com/kvebers/1Bit/assets/49612380/9a22cf21-283b-4b39-b9d2-c059c3547d3e)
+
+![Screenshot 2023-08-19 131350](https://github.com/kvebers/1Bit/assets/49612380/07ea6c7f-5cb3-40a4-a2fe-6f02fd0c4c78)
+
 ## Shaders and Post Processing Volume
+
 ## Add Win Condition
-## Add light effect for the eyes for the enemy
+
+Some where there, find out yourself ;)
+
 ## Title Screen (Authors, Settings, Tutorial and START)
+
+![Screenshot 2023-08-21 112215](https://github.com/kvebers/1Bit/assets/49612380/ee76a035-617d-4797-a18e-a223dbe318ca)
+
 ## Make Echo Location
+
+![Screenshot 2023-08-21 112344](https://github.com/kvebers/1Bit/assets/49612380/8a780b45-2bdd-46c4-a643-c546fd1e0029)
 
 ### Github Workflow
 #### 1.Save Unity Scene and the code!
